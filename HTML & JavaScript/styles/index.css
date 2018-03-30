@@ -1,0 +1,86 @@
+body{
+    font-family: 'New Cycle';
+}
+@media not print{
+    header{
+        background-color: #242323;
+        color: #EFEFEF;
+    }
+    body{
+        color: #635959;
+        background-color: lightgray;
+    }
+    article>h4{
+        color: #8C1018;
+    }
+    main > h3 {
+        font-size: 2em;
+    }
+    article>h3{
+        color: #8C1018;
+    }
+}
+header{
+    padding: 20px 50px;
+    font-family: 'Contail One';
+}
+
+main{
+    padding: 5px 10px;
+}
+
+article{
+    margin: 5px 0px;
+    padding: 5px 5px;
+    box-shadow: -1px -1px 6px #888888;
+}
+
+
+@media print{
+    header{
+        padding: 0px;
+    }
+    article{
+        box-shadow: none;
+    }
+    h1{
+        font-size: 2em;
+    }
+    header h2{
+        display: none;
+    }
+}
+
+article a{
+    color: #314052;
+}
+
+article > time{
+    float: right;
+font-size: 0.75em;
+font-weight: lighter;
+}
+header > h1{
+    font-size: 4em;
+}
+
+figure > figcaption{
+    font-size: 0.75em;
+font-style: italic;
+}
+
+main figure > figcaption{
+    content: 'Pictured above: ';
+font-weight: bold;
+}
+
+
+@font-face{
+    font-family: 'New Cycle';
+    src: url('../fonts/news_cycle.tff') format('truetype');
+}
+
+@font-face{
+    font-family: 'Contail One';
+    src: url('../fonts/contrail_one.ttf') format('truetype');
+}
