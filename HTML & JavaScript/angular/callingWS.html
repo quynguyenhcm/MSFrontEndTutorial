@@ -1,0 +1,21 @@
+<!DOCTYPE <!DOCTYPE html>
+<html ng-app="demoApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calling WS - Angular</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script> 
+    <script src="callingWs.js"></script>
+</head>
+<body ng-controller="demoController">
+    <h1>Result</h1>
+    <hr/>
+    <p>
+        {{returnJSON}} <br/>
+        {{returnProperty}}
+    </p>
+</body>
+</html>
